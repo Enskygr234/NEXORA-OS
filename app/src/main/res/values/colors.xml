@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nexora_black">#FF000000</color>
+    <color name="nexora_navy">#FF070B1A</color>
+    <color name="nexora_neon_blue">#FF00B8FF</color>
+    <color name="nexora_electric_purple">#FF8A3DFF</color>
+    <color name="ic_launcher_background">#FF050814</color>
+</resources>
