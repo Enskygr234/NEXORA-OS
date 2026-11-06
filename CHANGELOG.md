@@ -4,7 +4,7 @@ Biçim [Keep a Changelog](https://keepachangelog.com/tr-TR/1.1.0/) esaslıdır; 
 
 ## [1.0.0] - 2026-11-06
 
-İlk sürüm. Henüz cihazda doğrulanmadı; ilk CI derlemesi bekleniyor.
+İlk sürüm. CI'da derleniyor, birim testleri ve emülatör testleri geçiyor.
 
 ### Eklendi
 - Varsayılan ana ekran olarak atanabilen launcher (HOME intent, `RoleManager` isteği).

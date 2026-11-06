@@ -32,7 +32,7 @@ import androidx.compose.material.icons.rounded.Edit
 import androidx.compose.material.icons.rounded.Folder
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.Info
-import androidx.compose.material.icons.rounded.OpenInNew
+import androidx.compose.material.icons.automirrored.rounded.OpenInNew
 import androidx.compose.material.icons.rounded.Star
 import androidx.compose.material.icons.rounded.StarBorder
 import androidx.compose.material.icons.rounded.VisibilityOff
@@ -124,7 +124,7 @@ fun AppActionsSheet(
                     )
                 }
             }
-            item { ActionRow(Icons.Rounded.OpenInNew, stringResource(R.string.action_open), onOpen) }
+            item { ActionRow(Icons.AutoMirrored.Rounded.OpenInNew, stringResource(R.string.action_open), onOpen) }
             item {
                 ActionRow(
                     Icons.Rounded.Home,

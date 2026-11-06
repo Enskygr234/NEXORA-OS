@@ -3,7 +3,7 @@
 **Redefine Your Android Experience.**
 Winter Developer tarafından geliştirilen, cyberpunk ve fütüristik tasarım dilli bir Android ana ekran (launcher) uygulaması.
 
-> **Durum: 1.0.0, ilk sürüm. Henüz derlenip cihazda denenmedi.** Kod, Android SDK'ya erişimi olmayan bir ortamda yazıldı. İlk derleme ve testler GitHub Actions'ta çalışacak (bkz. [Derleme](#derleme)). Ekran görüntüleri uygulama cihazda çalıştırıldıktan sonra `docs/screenshots/` klasörüne eklenecek.
+> **Durum: 1.0.0, ilk sürüm.** GitHub Actions'ta derleniyor; birim testleri ve API 34 emülatöründeki 7 cihaz testi geçiyor. Gerçek telefonda elle test ([docs/TESTING.md](docs/TESTING.md)) ve ekran görüntüleri henüz yapılmadı.
 
 ## Özellikler
 
@@ -51,7 +51,7 @@ Bunlar bilerek yapılmadı ya da henüz yapılmadı:
 
 | Konu | Durum |
 |---|---|
-| Derleme ve cihaz testi | Kod henüz derlenmedi. İlk GitHub Actions çalışmasında hata çıkarsa düzeltilmesi gerekecek. |
+| Gerçek cihaz testi | Otomatik testler emülatörde geçiyor; gerçek telefonda elle test listesi henüz uygulanmadı. |
 | Ekran görüntüleri | Yok. Uygulama çalıştırıldıktan sonra eklenecek. |
 | Üçüncü parti ikon paketleri | Desteklenmiyor. İkon şekli ve boyutu değiştirilebiliyor. |
 | Çoklu ana ekran sayfası | Yok. Tek, kaydırılabilir bir ana ekran var. |

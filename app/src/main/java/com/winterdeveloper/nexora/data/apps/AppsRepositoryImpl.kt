@@ -209,6 +209,7 @@ class AppsRepositoryImpl(
     private fun cacheKey(pkg: String, id: String, serial: Long) = "$pkg|$id|$serial"
 
     private fun categoryOf(info: ApplicationInfo): AppCategory {
+        @Suppress("DEPRECATION") // Older games only set this flag, not the category.
         if (info.flags and ApplicationInfo.FLAG_IS_GAME != 0) return AppCategory.GAMES
         return when (info.category) {
             ApplicationInfo.CATEGORY_GAME -> AppCategory.GAMES
